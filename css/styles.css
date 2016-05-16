@@ -55,6 +55,7 @@ h6 { font-size: 0.75em; margin: 2.33em 0; }
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
 abbr[title] { border-bottom: 1px dotted; }
 /* * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome. */
+p.logoText { font-size: 3em; font-family: 'Avenir'; font-weight: 100; letter-spacing: 8px;}
 b, strong { font-weight: bold; }
 blockquote { margin: 1em 40px; }
 /* * Addresses styling not present in Safari 5 and Chrome. */
@@ -62,7 +63,7 @@ dfn { font-style: italic; }
 /* * Addresses styling not present in IE 6/7/8/9. */
 mark { background: #ff0; color: #000; }
 /* * Addresses margins set differently in IE 6/7. */
-p, pre { margin: 1em 0; }
+p, pre { margin: 35px 0; }
 /* * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome. */
 code, kbd, pre, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
 /* * Improves readability of pre-formatted text in all browsers. */
@@ -186,7 +187,7 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 .wrapper { height: 650px; }
 .nopadding { padding: 0; }
-.inner { padding-top: 170px; }
+.inner { padding-top: 65px; }
 /* ==========================================================================
 Navigation
 ========================================================================== */
@@ -212,10 +213,9 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero { background: url('../img/dchPhoto1.jpeg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
+.hero { background-color: black; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 65px 0; height: auto; }
 .hero h1 { font-size: 40px; letter-spacing: 12px; margin: 10px; }
 .hero h1 span { color: #a1a9b0; display: inline-block; }
-.hero p { letter-spacing: 1px; }
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
 /* ==========================================================================
