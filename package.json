@@ -1,0 +1,39 @@
+{
+  "name": "winding-rhythm-films",
+  "version": "1.0.0",
+  "description": "The portfolio site for Winding Rhythm Films",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "globals": {
+      "res": true
+    },
+    "env": {
+      "mocha": true,
+      "node": true,
+      "es6": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": 0
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollisd09/winding-rhythm-films.git"
+  },
+  "author": "Danielle Hollis <hollisd09@gmail.com> (http://www.hollisdesignsstudio.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hollisd09/winding-rhythm-films/issues"
+  },
+  "homepage": "https://github.com/hollisd09/winding-rhythm-films#readme",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6",
+    "jade": "^1.11.0",
+    "jquery-smooth-scroll": "^1.7.2"
+  }
+}
